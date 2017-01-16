@@ -1,0 +1,41 @@
+///////////// Set Command using code (overriding the UI EditText) /////
+ 		//String commandStr = "ffmpeg -y -i /sdcard/videokit/in.mp4 -strict experimental -s 320x240 -r 30 -aspect 4:3 -ab 48000 -ac 2 -ar 22050 -vcodec mpeg4 -b 2097152 /sdcard/videokit/out.mp4";
+ 		//String[] complexCommand = {"ffmpeg", "-y" ,"-i", "/sdcard/videokit/in.mp4","-strict","experimental","-vcodec", "mpeg4", "-b", "150k", "-s", "320x240","-r", "25", "-ab", "48000", "-ac", "2", "-ar", "22050","/sdcard/videokit/out.mp4"};
+ 		//commandStr = "ffmpeg -y -i /sdcard/videokit/in.mp4 -strict experimental -vn -ar 44100 -ac 2 -ab 256k -f mp3 /sdcard/videokit/in.mp3";
+ 		//commandStr = "ffmpeg -y -i /sdcard/videokit/in.wav -ar 44100 -ac 2 -ab 64k -f mp3 /sdcard/videokit/out.mp3";
+ 		//String[] complexCommand = {"ffmpeg","-i", "/sdcard/videokit/in.mp4"};
+ 		//commandStr = "ffmpeg -y -i /sdcard/videokit/in.mp4 -strict experimental -vf transpose=1 -s 160x120 -r 30 -aspect 4:3 -ab 48000 -ac 2 -ar 22050 -b 2097k /sdcard/videokit/out.mp4";
+ 		
+ 		// not working with min (sample format is not supported)
+ 		//commandStr = "ffmpeg -y -i /sdcard/videokit/in.mp4 -strict experimental -vf crop=100:100:0:0 -s 320x240 -r 15 -aspect 3:4 -ab 12288 -vcodec mpeg4 -b 2097152 -sample_fmt s16 /sdcard/videokit/out.mp4";
+ 		
+ 		//commandStr = "ffmpeg -y -i /sdcard/videokit/in.mp4 -strict experimental -vf crop=100:100:0:0 -s 320x240 -r 15 -aspect 3:4 -ab 12288 -vcodec mpeg4 -b 2097152 /sdcard/videokit/out.mp4";
+ 		
+ 		// not working (unable to find suitble output format for file.jpg
+ 		//commandStr = "ffmpeg -y -i /sdcard/videokit/in.mp4 -strict experimental -an -r 1/2 -ss 00:00:00.000 -t 00:00:03 /sdcard/videokit/filename%03d.jpg";
+ 		
+ 		//commandStr = "ffmpeg -y -i /sdcard/videokit/in.mp4 -strict experimental -vcodec copy -acodec libmp3lame -ab 64k -ac 2 -b 1200000 -ar 22050 /sdcard/out.mp4";
+ 		
+ 		//commandStr = "ffmpeg -ss 00:00:01.000 -y -i /sdcard/videokit/in.mp4 -strict experimental -t 00:00:02.000 -s 320x240 -r 15 -vcodec mpeg4 -b 2097152 -ab 48000 -ac 2 -b 2097152 -ar 22050 /sdcard/videokit/out.mp4";
+ 		
+ 		//commandStr = "ffmpeg -ss 00:00:01.000 -y -i /sdcard/videokit/in.mp4 -strict experimental -t 00:00:02.000 -s 320x240 -r 15 -vcodec mpeg4 -b 2097152 -ab 48000 -ac 2 -b 2097152 -ar 22050 /sdcard/videokit/out.mp4";
+ 		
+ 		// missing concat filter - fixed
+ 		//String[] complexCommand = {"ffmpeg","-y" ,"-i", "/sdcard/videokit/in.mp4","-i", "/sdcard/videokit/in.mp4","-strict","experimental","-filter_complex", "[0:v]scale=w=160:h=120[v1]; [1:v]scale=w=160:h=120[v2]; [v1][0:a][v2][1:a] concat=n=2:v=1:a=1 [v] [a]","-map","[v]","-map","[a]", "-b", "2097k", "-vcodec", "mpeg4", "/sdcard/videokit/out.mp4"};
+ 		
+ 		// missing pad filter - fixed
+ 		//  String[] complexCommand = {"ffmpeg","-y" ,"-i", "/sdcard/videokit/sample.mp4","-i", "/sdcard/videokit/sample.mp4", "-strict","experimental","-filter_complex", "[0:v:0]pad=iw*2:ih[bg];" + "[bg][1:v:0]overlay=w","-s", "320x240","-r", "30", "-b", "15496k", "-vcodec", "mpeg4","-ab", "48000", "-ac", "2", "-ar", "22050","/sdcard/videokit/out.mp4"};  
+
+ 		// missing curves -> fixed
+ 		// commandStr = "ffmpeg -y -i /sdcard/videokit/in.mp4 -strict experimental -vf curves=vintage -s 640x480 -r 30 -aspect 4:3 -ab 48000 -ac 2 -ar 22050 -b 2097k -vcodec mpeg4 /sdcard/videokit/curve.mp4";
+ 		
+ 		// un-recognized option loop (not supported with ess build)
+ 		//commandStr = "ffmpeg -y -loop 1 -i /sdcard/videokit/pic001.jpg -i /sdcard/videokit/in.mp3 -strict experimental -s 1270x720 -r 25 -aspect 16:9 -vcodec mpeg4 -vcodec mpeg4 -ab 48000 -ac 2 -b 2097152 -ar 22050 -shortest /sdcard/videokit/out2.mp4";
+ 		
+ 		// Trying to make it work
+ 		// commandStr = "ffmpeg -y -r 1/5 -i /sdcard/videokit/pic%d.jpg -shortest -i /sdcard/videokit/in.mp3 -acodec copy -vf fade=in:0:5 /sdcard/videokit/out.avi";
+ 		
+		// works great, the offical create video from photos
+ 		String commandStr = "ffmpeg -y -framerate 1/3 -i /sdcard/videokit/pic%d.jpg -i /sdcard/videokit/in.mp3 -vf fade=in:0:2 -s 320x240 -aspect 4:3 -vcodec mpeg4 -acodec aac -ar 44100 -ac 2 -b:a 96k -strict experimental -shortest /sdcard/videokit/out.mp4";
+
+///////////////////////////////////////////////////////////////////////

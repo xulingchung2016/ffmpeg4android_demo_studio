@@ -1,0 +1,283 @@
+[
+    {
+        "outputFile": "F:\\down\\ffmpeg4android_demo_studio_25_24_9\\ffmpeg4android_demo_studio\\ffmpeg4android_demo\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values\\values.xml",
+        "map": [
+            {
+                "to": {
+                    "startLine": 2,
+                    "startColumn": 4,
+                    "startOffset": 55,
+                    "endColumn": 41,
+                    "endOffset": 92
+                },
+                "from": {
+                    "file": "F:\\down\\ffmpeg4android_demo_studio_25_24_9\\ffmpeg4android_demo_studio\\ffmpeg4android_demo\\src\\main\\res\\values\\strings.xml",
+                    "position": {
+                        "startLine": 3,
+                        "startColumn": 0,
+                        "startOffset": 52,
+                        "endColumn": 37,
+                        "endOffset": 89
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 3,
+                    "startColumn": 4,
+                    "startOffset": 97,
+                    "endColumn": 202,
+                    "endOffset": 295
+                },
+                "from": {
+                    "file": "F:\\down\\ffmpeg4android_demo_studio_25_24_9\\ffmpeg4android_demo_studio\\ffmpeg4android_demo\\src\\main\\res\\values\\strings.xml",
+                    "position": {
+                        "startLine": 16,
+                        "startColumn": 0,
+                        "startOffset": 1171,
+                        "endColumn": 198,
+                        "endOffset": 1369
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 4,
+                    "startColumn": 4,
+                    "startOffset": 300,
+                    "endColumn": 141,
+                    "endOffset": 437
+                },
+                "from": {
+                    "file": "F:\\down\\ffmpeg4android_demo_studio_25_24_9\\ffmpeg4android_demo_studio\\ffmpeg4android_demo\\src\\main\\res\\values\\strings.xml",
+                    "position": {
+                        "startLine": 14,
+                        "startColumn": 0,
+                        "startOffset": 963,
+                        "endColumn": 137,
+                        "endOffset": 1100
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 5,
+                    "startColumn": 4,
+                    "startOffset": 442,
+                    "endColumn": 73,
+                    "endOffset": 511
+                },
+                "from": {
+                    "file": "F:\\down\\ffmpeg4android_demo_studio_25_24_9\\ffmpeg4android_demo_studio\\ffmpeg4android_demo\\src\\main\\res\\values\\strings.xml",
+                    "position": {
+                        "startLine": 15,
+                        "startColumn": 0,
+                        "startOffset": 1101,
+                        "endColumn": 69,
+                        "endOffset": 1170
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 6,
+                    "startColumn": 4,
+                    "startOffset": 516,
+                    "endColumn": 55,
+                    "endOffset": 567
+                },
+                "from": {
+                    "file": "F:\\down\\ffmpeg4android_demo_studio_25_24_9\\ffmpeg4android_demo_studio\\ffmpeg4android_demo\\src\\main\\res\\values\\strings.xml",
+                    "position": {
+                        "startLine": 4,
+                        "startColumn": 0,
+                        "startOffset": 90,
+                        "endColumn": 51,
+                        "endOffset": 141
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 7,
+                    "startColumn": 4,
+                    "startOffset": 572,
+                    "endColumn": 61,
+                    "endOffset": 629
+                },
+                "from": {
+                    "file": "F:\\down\\ffmpeg4android_demo_studio_25_24_9\\ffmpeg4android_demo_studio\\ffmpeg4android_demo\\src\\main\\res\\values\\strings.xml",
+                    "position": {
+                        "startLine": 5,
+                        "startColumn": 0,
+                        "startOffset": 142,
+                        "endColumn": 57,
+                        "endOffset": 199
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 8,
+                    "startColumn": 4,
+                    "startOffset": 634,
+                    "endLine": 9,
+                    "endColumn": 101,
+                    "endOffset": 817
+                },
+                "from": {
+                    "file": "F:\\down\\ffmpeg4android_demo_studio_25_24_9\\ffmpeg4android_demo_studio\\ffmpeg4android_demo\\src\\main\\res\\values\\strings.xml",
+                    "position": {
+                        "startLine": 7,
+                        "startColumn": 0,
+                        "startOffset": 324,
+                        "endLine": 8,
+                        "endColumn": 101,
+                        "endOffset": 507
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 10,
+                    "startColumn": 4,
+                    "startOffset": 822,
+                    "endColumn": 134,
+                    "endOffset": 952
+                },
+                "from": {
+                    "file": "F:\\down\\ffmpeg4android_demo_studio_25_24_9\\ffmpeg4android_demo_studio\\ffmpeg4android_demo\\src\\main\\res\\values\\strings.xml",
+                    "position": {
+                        "startLine": 9,
+                        "startColumn": 0,
+                        "startOffset": 508,
+                        "endColumn": 130,
+                        "endOffset": 638
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 11,
+                    "startColumn": 4,
+                    "startOffset": 957,
+                    "endLine": 13,
+                    "endColumn": 88,
+                    "endOffset": 1201
+                },
+                "from": {
+                    "file": "F:\\down\\ffmpeg4android_demo_studio_25_24_9\\ffmpeg4android_demo_studio\\ffmpeg4android_demo\\src\\main\\res\\values\\strings.xml",
+                    "position": {
+                        "startLine": 10,
+                        "startColumn": 0,
+                        "startOffset": 639,
+                        "endLine": 12,
+                        "endColumn": 88,
+                        "endOffset": 883
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 14,
+                    "startColumn": 4,
+                    "startOffset": 1206,
+                    "endColumn": 82,
+                    "endOffset": 1284
+                },
+                "from": {
+                    "file": "F:\\down\\ffmpeg4android_demo_studio_25_24_9\\ffmpeg4android_demo_studio\\ffmpeg4android_demo\\src\\main\\res\\values\\strings.xml",
+                    "position": {
+                        "startLine": 13,
+                        "startColumn": 0,
+                        "startOffset": 884,
+                        "endColumn": 78,
+                        "endOffset": 962
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 15,
+                    "startColumn": 4,
+                    "startOffset": 1289,
+                    "endColumn": 127,
+                    "endOffset": 1412
+                },
+                "from": {
+                    "file": "F:\\down\\ffmpeg4android_demo_studio_25_24_9\\ffmpeg4android_demo_studio\\ffmpeg4android_demo\\src\\main\\res\\values\\strings.xml",
+                    "position": {
+                        "startLine": 6,
+                        "startColumn": 0,
+                        "startOffset": 200,
+                        "endColumn": 123,
+                        "endOffset": 323
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 16,
+                    "startColumn": 4,
+                    "startOffset": 1417,
+                    "endLine": 20,
+                    "endColumn": 8,
+                    "endOffset": 1612
+                },
+                "from": {
+                    "file": "F:\\down\\ffmpeg4android_demo_studio_25_24_9\\ffmpeg4android_demo_studio\\ffmpeg4android_demo\\src\\main\\res\\values\\styles.xml",
+                    "position": {
+                        "startLine": 6,
+                        "startColumn": 0,
+                        "startOffset": 201,
+                        "endLine": 10,
+                        "endColumn": 8,
+                        "endOffset": 400
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 21,
+                    "startColumn": 4,
+                    "startOffset": 1617,
+                    "endLine": 25,
+                    "endColumn": 8,
+                    "endOffset": 1812
+                },
+                "from": {
+                    "file": "F:\\down\\ffmpeg4android_demo_studio_25_24_9\\ffmpeg4android_demo_studio\\ffmpeg4android_demo\\src\\main\\res\\values\\styles.xml",
+                    "position": {
+                        "startLine": 12,
+                        "startColumn": 0,
+                        "startOffset": 404,
+                        "endLine": 16,
+                        "endColumn": 8,
+                        "endOffset": 603
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 26,
+                    "startColumn": 4,
+                    "startOffset": 1817,
+                    "endLine": 29,
+                    "endColumn": 8,
+                    "endOffset": 1960
+                },
+                "from": {
+                    "file": "F:\\down\\ffmpeg4android_demo_studio_25_24_9\\ffmpeg4android_demo_studio\\ffmpeg4android_demo\\src\\main\\res\\values\\styles.xml",
+                    "position": {
+                        "startLine": 2,
+                        "startColumn": 0,
+                        "startOffset": 53,
+                        "endLine": 5,
+                        "endColumn": 8,
+                        "endOffset": 199
+                    }
+                }
+            }
+        ]
+    }
+]

@@ -1,0 +1,7 @@
+#Mon Jan 16 10:39:25 CST 2017
+base.0=F\:\\down\\ffmpeg4android_demo_studio_25_24_9\\ffmpeg4android_demo_studio\\ffmpeg4android_demo\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10\\instant-run-bootstrap_3a573e8a9f5440938aae8a708ef281c0bf624be0
+renamed.1=classes.dex
+renamed.0=classes2.dex
+file.1=F\:\\down\\ffmpeg4android_demo_studio_25_24_9\\ffmpeg4android_demo_studio\\ffmpeg4android_demo\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10\\instant-run_f391cc373237c5c7e08d81f56f1846432e6dd269\\classes.dex
+base.1=F\:\\down\\ffmpeg4android_demo_studio_25_24_9\\ffmpeg4android_demo_studio\\ffmpeg4android_demo\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10\\instant-run_f391cc373237c5c7e08d81f56f1846432e6dd269
+file.0=F\:\\down\\ffmpeg4android_demo_studio_25_24_9\\ffmpeg4android_demo_studio\\ffmpeg4android_demo\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10\\instant-run-bootstrap_3a573e8a9f5440938aae8a708ef281c0bf624be0\\classes.dex

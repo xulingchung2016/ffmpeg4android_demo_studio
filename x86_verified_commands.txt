@@ -1,0 +1,6 @@
+		// working x86
+ 		//String[] complexCommand = {"ffmpeg","-y" ,"-i", "/sdcard/videokit/gp.mp4","-strict","experimental", "-filter_complex", "[0:v]setpts=0.5*PTS[v];[0:a]atempo=2.0[a]","-map","[v]","-map","[a]", "-b", "2097k","-r","60", "-vcodec", "mpeg4", "/sdcard/videokit/out.mp4"};
+ 		// working x86
+ 		//String[] complexCommand = {"ffmpeg","-y" ,"-i", "/sdcard/videokit/sample.mp4","-strict","experimental","-vf", "curves=enable='between(t,1,2)':blue='0.5/0.58'","-b", "2097k", "-vcodec", "mpeg4", "/sdcard/videokit/out2.mp4"};	
+ 		// working x86
+ 		commandStr = "ffmpeg -y -i /sdcard/videokit/sample.mp4 -strict experimental -vcodec libx264 -preset ultrafast -crf 24 -acodec aac -ar 44100 -ac 2 -b:a 96k -s 320x240 -aspect 4:3 /sdcard/videokit/out3.mp4";

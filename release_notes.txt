@@ -1,0 +1,24 @@
+2.5.24.9
+--------
+* Refactors, and cleanups
+
+2.5.24.8
+--------
+* checkForPermissionsMAndAbove block param added.
+
+2.5.24.7
+--------
+* Added commands.txt, readme.txt, and more support text docs.
+* checkForPermissionsMAndAboveBlocking added to support blocking permissions.
+
+
+2.5.24.6
+--------
+* Fixed MultipleCommandsExample (missing png in the demo folder, and added -y).
+* Fixed lib version number.
+* CommandText fix for Android 6.
+
+2.5.24.4
+---------
+* Removed x86 (moved to extras).
+* abiFilter "x86" commented out
